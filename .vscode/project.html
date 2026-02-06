@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/css/project.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- TOP BAR -->
+  <header class="top-bar">
+    <button 
+      id="closePage" 
+      class="icon-btn">
+      ✕
+    </button>
+    <span 
+      class="page-title">
+      Project
+    </span>
+    <button 
+      id="saveTask" 
+      class="icon-btn primary">
+      Save
+    </button>
+  </header>
+
+  <!-- CONTENT (SCROLLABLE) -->
+  <main class="content">
+
+    <!-- PROJECT INFO -->
+    <section 
+      class="project-info">
+      <h2 
+        id="projectTitle">
+        yow
+      </h2>
+      <p 
+        id="projectMeta">
+        Target 2 hari
+      </p>
+    </section>
+
+    <!-- INPUT CARD -->
+    <section class="card">
+      <textarea 
+        id="taskInput" 
+        placeholder="Ada plan apa hari ini?...">
+      </textarea>
+
+      <div class="action-row">
+        <input 
+          type="date" 
+          id="dueDate" />
+        <select 
+          id="priority">
+          <option 
+            value="low">
+            Low
+          </option>
+          <option 
+            value="medium">
+            Medium
+          </option>
+          <option 
+            value="high">
+            High
+          </option>
+        </select>
+        <button 
+          id="addTask" 
+          class="btn primary">
+          Add
+        </button>
+      </div>
+
+      <button 
+        id="deleteAll" 
+        class="btn danger">
+        Delete All
+      </button>
+    </section>
+
+    <!-- TODO -->
+    <section class="list-section">
+      <h3 
+        class="section-title">
+        To Do 
+        <span 
+          class="badge" 
+          id="todo-count">
+          0
+        </span>
+      </h3>
+      <ul 
+        id="todoList" 
+        class="task-list">
+      </ul>
+    </section>
+
+    <!-- OVERDUE -->
+    <section class="list-section">
+      <h3 class="section-title">
+        Overdue 
+        <span 
+          class="badge" 
+          id="overdue-count">
+          0
+        </span>
+      </h3>
+      <ul 
+        id="overdueList" 
+        class="task-list">
+      </ul>
+    </section>
+
+    <!-- DONE -->
+    <section class="list-section">
+      <h3 class="section-title">
+        Done 
+        <span 
+          class="badge" 
+          id="done-count">
+          0
+        </span>
+      </h3>
+      <ul 
+        id="doneList" 
+        class="task-list">
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<script src="style/js/project.js"></script>
+</body>
+</html>

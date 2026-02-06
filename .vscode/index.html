@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- PROFILE -->
+  <div class="header">
+    <h2>
+      HAMDAN ARIF
+    </h2>
+    <small>
+      Kelola project & progres harianmu
+    </small>
+  </div>
+
+  <!-- ADD PROJECT -->
+  <div class="card">
+    <input 
+      id="projectTitle" 
+      class="placeholder" 
+      placeholder="Daily Plan, Tugas, Project..." />
+    <input 
+      type="number" 
+      id="projectDays" 
+      class="placeholder" 
+      placeholder="Butuh berapa hari?" />
+    <button 
+      class="primary" 
+      id="addProject">
+      Add Project
+    </button>
+  </div>
+
+  <!-- PROJECT LIST -->
+  <div class="section-label">
+    Project Kamu
+  </div>
+  <div 
+    id="projectList" 
+    class="project-grid">
+  </div>
+
+</div>
+
+<script src="style/js/main.js"></script>
+</body>
+</html>
