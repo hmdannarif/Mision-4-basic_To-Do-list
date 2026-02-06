@@ -11,17 +11,16 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hmdannarif/Mision-4-basic_To-Do-list.git"
-    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/hmdannarif/Mision-4-basic_To-Do-list/issues"
   },
   "homepage": "https://github.com/hmdannarif/Mision-4-basic_To-Do-list#readme",
   "devDependencies": {
-    "vite": "^7.3.1"
+    "vite": "^5.4.21"
   }
 }
